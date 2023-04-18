@@ -1,6 +1,6 @@
-.inline-block {
+.inline-block nav {
     display:inline-block;
-    vertical-align: top;
+    horizontal-align: top;
 }
     
 .inline-block logo {
@@ -20,4 +20,3 @@
     margin-left: 10px; 
      }
 
-     
