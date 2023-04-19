@@ -1,16 +1,28 @@
-.nav {
-    display:inline-block;
-    background-color: aqua;
-    vertical-align: top;
-    color: blue;
+.container {
+    width: 80%;
+    margin: 0 auto;
 }
-    
+
 .logo {
-    display: inline-block;
+    float: left;
     width: 23%;
     padding: 1%;
     text-align: center;
    }
+.name {
+    position: absolute;
+}
+
+.navigation {
+ background-color: aquamarine;
+ }
+
+
+.nav {
+    float: right;
+     }
+    
+
 
    
 .nav {
