@@ -1,41 +1,16 @@
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
 
 .logo {
-    float: left;
+    Display:inline-block;
     width: 23%;
     padding: 1%;
     text-align: center;
    }
   
-   .name {
-    display: inline-block;
-    margin-left: 200px;
-    margin-right: auto;
-    width: 40%;
-  }
-
+   
 .navigation {
  background-color: aquamarine;
  }
 
 
-.nav {
-    float: right;
-     }
-    
 
-
-   
-.nav {
-    width: 73%;
-    padding: 1%
-}
-
- ul {
-    width: 100%;
-    margin-left: 10px; 
-     }
 
