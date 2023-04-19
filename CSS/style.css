@@ -10,7 +10,7 @@
     text-align: center;
    }
 .name {
-    position: absolute;
+    position: relative;
 }
 
 .navigation {
