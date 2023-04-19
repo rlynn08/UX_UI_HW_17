@@ -1,13 +1,16 @@
 .nav {
     display:inline-block;
+    background-color: aqua;
     vertical-align: top;
+    color: blue;
 }
     
 .logo {
+    display: inline-block;
     width: 23%;
     padding: 1%;
     text-align: center;
-}
+   }
 
    
 .nav {
