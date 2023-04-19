@@ -9,9 +9,13 @@
     padding: 1%;
     text-align: center;
    }
-.name {
-    position: relative;
-}
+  
+   .name {
+    display: inline-block;
+    margin-left: 200px;
+    margin-right: auto;
+    width: 40%;
+  }
 
 .navigation {
  background-color: aquamarine;
