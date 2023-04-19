@@ -1,16 +1,16 @@
-.inline-block nav {
+.nav {
     display:inline-block;
-    horizontal-align: top;
+    vertical-align: top;
 }
     
-.inline-block logo {
+.logo {
     width: 23%;
     padding: 1%;
     text-align: center;
 }
 
    
-.inline-block nav {
+.nav {
     width: 73%;
     padding: 1%
 }
