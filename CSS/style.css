@@ -1,19 +1,39 @@
 
 .logo {
     Display:inline-block;
-    width: 23%;
+    width: 20%;
     padding: 1%;
     text-align: center;
    }
   
    
 .navigation {
- background-color: aquamarine;
+ background-color: #98E1E1;
  }
 
 .inline-block {
     display: inline-block;
-    
+
 }
 
+.inline-block a:hover {
+    background-color:aliceblue;
+    
+}
+nav ul {
+    width: 75%;
+    margin: 0%;
+    padding: 1%;
+    list-style: none;
+    }
 
+    nav li {
+        display: inline-block;
+        margin-left: 70px;
+        padding-top: 25px;
+        position: sticky;
+    }
+
+.inline-block a{
+    text-decoration: none;
+}
