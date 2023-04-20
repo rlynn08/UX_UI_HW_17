@@ -17,7 +17,7 @@
 }
 
 .inline-block a:hover {
-    background-color:aliceblue;
+    background-color:rgb(244, 240, 255);
     
 }
 nav ul {
@@ -36,4 +36,8 @@ nav ul {
 
 .inline-block a{
     text-decoration: none;
+}
+
+.heroImg {
+    
 }
