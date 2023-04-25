@@ -1,4 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
+body {
+    margin: 0;
+    font-family: Montserrat;
+    font-size: 1.125em;
+    line-height: 1.6;
+    color: black;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 40%;
+    }
 
 .logo {
     Display:inline-block;
@@ -7,7 +22,7 @@
     text-align: center;
     position: fixed;
     top: 20px;
-    left: 50px;
+    left: 0px;
    }
   
    
@@ -49,26 +64,112 @@ nav ul {
 }
 
 .heroImg {
-    height: 600px;
-    padding: 25px;
+    
+        width: 100%;
+        height: auto;
+        margin-left: -440px;
+        margin-top: 25px;
+            
+}
+.box {
+    font-family: "Berkshire Swash";
+    font-size: 64px;
+    text-align: center;
+    padding-top: 50px;
+    width: 1225px;
+    height: 300px;
+    background-color: #C399E3;
 }
 
+img {
+    display: inline-block; 
+    }
+
+h2 {
+    display:inline-block;
+    font-family: "Berkshire Swash";
+    font-size: 24px;
+}
+
+h3 {
+    display: inline-block;
+    font-family: "Berkshire Swash";
+    font-size: 24px;
+}
 .content {
     width: 500px;
     margin: 0 auto;
+    text-align:center;
 }
 
-<footer>
+.skills {
+    display:inline-flexbox;
+    margin-left: 313px;
+}
+
+.box-left {
+    float: left;
+    width: 286px;
+    height: 305px;
+    margin-top: 25px;
+    background-color: #C399E3;
+}
+ .box-right {
+    float: right;
+    width: 286px;
+    height: 305px;
+    margin-top: 25px;
+    background-color: #98E1E1;
+ }
+
+
+
+#footer {
+Display:inline-block;
+background-color: #98e1e1;
+height: 200px;
+color: black;
+padding: 10px;
+margin-bottom: 20px
+
+}
+
+navigation {
+    background-color: #ffffff;
+     }
+   
+   .inline-block {
+       display: inline-block;
+       margin-right: 25px;
+       }
+
        .logo {
         Display:inline-block;
         width: 20%;
         padding: 1%;
         text-align: center;
         position: fixed;
-        top: 20px;
+        bottom: 20px;
         left: 50px;
        }
-       </footer>
-
-
+       
+       nav ul {
+        text-align: right;
+         width: 75%;
+         margin-right: auto;
+         padding: 1%;
+         bottom: 0px;
+         position: fixed;
+         right: 0px;
+         list-style: none;
+         }
+     
+         nav li {
+             display: inline-block;
+             text-align: right;
+             font-family: "Berkshire Swash";
+             margin-right: 10px;       
+             padding-bottom: 75px;
+             position: sticky;
       
+         }
