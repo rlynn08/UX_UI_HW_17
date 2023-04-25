@@ -1,36 +1,50 @@
+.container {
+    width: auto;
+    height: 200 px;
+    background: #ffffff;
+}
 
 .logo {
     Display:inline-block;
     width: 20%;
     padding: 1%;
     text-align: center;
+    position: fixed;
+    top: 20px;
+    left: 50px;
    }
   
    
 .navigation {
- background-color: #98E1E1;
- }
+ background-color: #ffffff;
+  }
 
 .inline-block {
     display: inline-block;
-
-}
+    margin-right: 25px;
+    }
 
 .inline-block a:hover {
-    background-color:rgb(244, 240, 255);
-    
-}
+    background-color:#98E1E1;
+    }
+
 nav ul {
+   text-align: right;
     width: 75%;
-    margin: 0%;
+    margin-right: auto;
     padding: 1%;
+    top: 0px;
+    position: fixed;
+    right: 0px;
     list-style: none;
     }
 
     nav li {
         display: inline-block;
-        margin-left: 70px;
-        padding-top: 25px;
+        text-align: right;
+        font-family: "Berkshire Swash";
+        margin-right: 10px;       
+        padding-top: 75px;
         position: sticky;
     }
 
@@ -39,5 +53,35 @@ nav ul {
 }
 
 .heroImg {
-    
+    height: 600px;
+    padding: 25px;
 }
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: #373738;
+
+    .inline-block {
+        display: inline-block;
+        margin-right: 25px;
+        }
+    
+    .inline-block a:hover {
+        background-color:#98E1E1;
+        } 
+    nav ul {
+        text-align: right;
+         width: 75%;
+         margin-right: auto;
+         padding: 1%;
+         top: 0px;
+         position: fixed;
+         right: 0px;
+         list-style: none;
+         }
+
+        }
