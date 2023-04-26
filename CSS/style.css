@@ -65,7 +65,7 @@ nav ul {
     
         width: 100%;
         height: auto;
-        margin-left: -440px;
+        margin-left: 0 auto;
         margin-top: 25px;
             
 }
@@ -125,6 +125,7 @@ h3 {
 #footer {
 Display:inline-block;
 background-color: #98e1e1;
+width: 100%;
 height: 200px;
 color: black;
 padding: 10px;
