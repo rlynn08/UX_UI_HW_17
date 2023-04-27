@@ -3,19 +3,11 @@
     padding: 0;
 }
 
-body {
-    margin: 0;
-    font-family: Montserrat;
-    font-size: 1.125em;
-    line-height: 1.6;
-    color: black;
-    background-color: white;
-        padding: 40%;
-    }
+
 
 .logo {
     Display:inline-block;
-    width: 50%;
+    width: 23%;
     padding: 1%;
     text-align: center;
     position: fixed;
@@ -68,7 +60,7 @@ nav ul {
         margin-left: 5%;
         margin-right: 5%;
         padding: 1%;
-        margin-top: 25px;      
+        margin-top: 250px;      
                   
 }
 .box {
@@ -82,7 +74,8 @@ nav ul {
 }
 
 img {
-    display: inline-block; 
+    float: left; 
+    padding-top: 50px;
     }
 
 h2 {
@@ -102,10 +95,18 @@ h3 {
     text-align:center;
 }
 
+#container {
+    background-color: white;
+    height: 300px;
+} 
 .skills {
-    display:inline-flexbox;
-    margin-left: 313px;
-}
+    display:inline-block;
+    background-color: #98E1E1;
+    padding: 10px;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    }
 
 .box-left {
     float: left;
@@ -127,11 +128,6 @@ h3 {
 #footer {
 Display:inline-block;
 background-color: #98e1e1;
-width: 98%;
-height: 200px;
-color: black;
-padding: 1;
-margin-bottom: 20px
 
 }
 
