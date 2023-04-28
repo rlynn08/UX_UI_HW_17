@@ -2,7 +2,21 @@
     margin: 0;
     padding: 0;
 }
-
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr auto;
+  }
+  #flex-container {
+    display:flex;
+    flex-direction:column;
+ 
+    /* fallback height */
+    min-height:100vh;
+ 
+    /* new small viewport height for modern browsers */
+    min-height:100svh;
+  }
 
 
 .logo {
@@ -151,9 +165,10 @@ h3 {
 
 
 
-#footer {
-Display:inline-block;
-background-color: #98e1e1;
 
+#flex-container > footer {
+   margin-top:auto;
 }
+
+
 
