@@ -2,22 +2,18 @@
     margin: 0;
     padding: 0;
 }
-body {
-    min-height: 100vh;
-    display: grid;
-    grid-template-rows: 1fr auto;
-  }
-  #flex-container {
-    display:flex;
-    flex-direction:column;
+html, body {
+    height: 100%;
+ }
  
-    /* fallback height */
-    min-height:100vh;
- 
-    /* new small viewport height for modern browsers */
-    min-height:100svh;
-  }
+#container {
+    min-height: 100%;
+}
 
+#main {
+    overflow: auto;
+    padding-bottom: 100px;
+}
 
 .logo {
     display: inline-block;
@@ -134,7 +130,7 @@ h3 {
     text-align: center;
     margin-top: 10px;
 }
-.skills {
+.skillsContainer {
     display:inline-block;
     width: 340px;
     height: 250px;
@@ -171,7 +167,7 @@ h3 {
     padding: 15px;
     margin-top: 25px;
     margin-left: 25px;
-    margin-right: 75px;
+    margin-right: 5px;
     margin-bottom: 25px;
     background-color: #C399E3;
 }
@@ -182,7 +178,7 @@ h3 {
     height: 250px;
     padding: 15px;
     margin-top: 25px;
-    margin-left: 75px;
+    margin-left: 5px;
     margin-right: 0 auto;
     background-color: #98E1E1;
  }
@@ -204,8 +200,12 @@ h3 {
 
 
 
-#flex-container > footer {
-   margin-bottom:auto;
+#footer {
+    background-color: #98E1E1;
+    position: relative;
+    height: 100px;
+    margin: top -100px;
+    clear: both;
 }
 
 
