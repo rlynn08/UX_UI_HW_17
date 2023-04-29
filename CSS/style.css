@@ -132,17 +132,28 @@ h3 {
 }
 
 .skillsContainer {
-    display:inline-block;
-    width: 30%;
-    height: 250px;
-    padding: 2px;
-    background-color: #98E1E1;
-    text-align: center;
-    color: black;
-    border: 2px solid black;
-    font-family:'Courier New', Courier, monospace;
-    font-size: 24px;
-    margin-top: -20px;
+        max-width: 88%;
+        height: 400px;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 1%;
+        margin-top: 250px; 
+}
+   
+    .skills {
+        display: inline-block;
+        width: 300px;
+        height: 250px;
+        padding: 2px;
+        background-color: #98E1E1;
+        text-align: center;
+        color: black;
+        border: 2px solid black;
+        font-family:'Courier New', Courier, monospace;
+        font-size: 24px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     h4 {
