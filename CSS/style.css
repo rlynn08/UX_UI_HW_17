@@ -18,12 +18,12 @@ html, body {
 
 .logo {
     display: inline-block;
-    width: 23%;
+    width: 30%;
     padding: 1%;
     text-align: center;
     position: fixed;
     margin-top: 20px;
-    margin-left:-50px;
+    margin-left:-25px;
    }
   
    img {
@@ -47,7 +47,7 @@ html, body {
 
 nav ul {
    text-align: right;
-    width: 75%;
+    width: 50%;
     margin-right: auto;
     padding: 1%;
     top: 50px;
@@ -171,7 +171,7 @@ h3 {
     display: inline-block;
     width: 350px;
     height: 250px;
-    padding: 15px;
+    padding: 50px;
     margin-top: 25px;
     margin-left: 25px;
     margin-right: 5px;
@@ -183,7 +183,7 @@ h3 {
     display: inline-block;
     width: 350px;
     height: 250px;
-    padding: 15px;
+    padding: 50px;
     margin-top: 25px;
     margin-left: 5px;
     margin-right: 0 auto;
@@ -203,7 +203,12 @@ h3 {
     cursor: pointer;
   }
   
-  .button {background-color: #98E1E1 } /* black */
+  .button 
+  {background-color: #98E1E1;
+    display: inline-block;
+    margin-left: 450px;
+    margin-right: 450px;
+ } 
 
 #footer {
     background-color: #98E1E1;
@@ -215,6 +220,7 @@ h3 {
  
  #footer {
     text-align: center;
+    margin-top: 100px;
     margin-bottom: 0px;
  }
 
