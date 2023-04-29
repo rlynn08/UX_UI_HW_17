@@ -113,15 +113,7 @@ h2 {
     margin-top: 200px;
 }
 
-#container {
-    max-width: 88%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 1%;
-    background-color: white;
-    height: 500px;
-    margin-top: 25px;
-} 
+
 
 h3 {
     display: inline-block;
@@ -160,15 +152,16 @@ h3 {
         display: inline-block;
         font-family: "Berkshire Swash";
         font-size: 48px;
-        margin-top: 25px;
+        margin-top: 250px;
     }
 
     #workContainer {
-        max-width: 90%;
-        margin: 5%;
+        max-width: 88%;
+        margin-left: 5%;
+        margin-right: 5%;
         background-color: white;
         height: 400px;
-        margin-top: -20px;
+        margin-top: 20px;
         margin-right: 25px;
         }
 
@@ -176,7 +169,7 @@ h3 {
 
     .box-left {
     display: inline-block;
-    width: 400px;
+    width: 350px;
     height: 250px;
     padding: 15px;
     margin-top: 25px;
@@ -188,7 +181,7 @@ h3 {
 
  .box-right {
     display: inline-block;
-    width: 400px;
+    width: 350px;
     height: 250px;
     padding: 15px;
     margin-top: 25px;
