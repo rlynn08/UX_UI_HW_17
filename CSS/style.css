@@ -23,11 +23,12 @@ html, body {
     text-align: center;
     position: fixed;
     margin-top: 20px;
-    margin-left:-60px;
+    margin-left:-90px;
    }
   
    img {
-    margin-left: 120px;
+    margin-left: 100px;
+    margin-top: 20px;
    }
    
 
@@ -52,7 +53,7 @@ nav ul {
     padding: 1%;
     top: 50px;
     position: fixed;
-    right: 0px;
+    right: 10px;
     list-style: none;
     }
 
@@ -61,7 +62,7 @@ nav ul {
         text-align: right;
         font-family: "Berkshire Swash";
         margin-right: 10px;       
-        padding-top: 75px;
+        margin-top: 75px;
         position: sticky;
     }
 
@@ -70,10 +71,10 @@ nav ul {
 }
 
 .heroImg {
-        width: 88%;
-        height: 400px;
+        max-width: 88%;
         margin-left: 5%;
         margin-right: 5%;
+        padding-bottom:20px;
         padding: 1%;
         margin-top: 250px;      
 }              
@@ -83,8 +84,7 @@ nav ul {
     font-size: 64px;
     text-align: center;
     padding-top: 50px;
-    width: 1225px;       
-    height: 300px;
+    height: 200px;
     background-color: #C399E3;
 }
 
