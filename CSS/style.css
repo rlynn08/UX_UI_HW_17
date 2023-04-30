@@ -3,7 +3,13 @@
     padding: 0;
 }
 
-html, body {
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 100px;
     height: 100%;
  }
  
@@ -118,12 +124,23 @@ h2 {
 }
 
 h3 {
-    display: inline-block;
+    
     font-family: 'Berkshire Swash', cursive;
+    color: #C399E3;
+    text-align: center;
     font-size: 48px;
     margin-top: 200px;
 }
 
+.skills-content {
+    display: inline-block;
+    width: 500px;
+    margin-top: 200px;
+    margin-left: 25%;
+    text-align: center;
+    font-size: 30px;
+    color: #C399E3;
+}
 
 
 h4 {
@@ -134,29 +151,32 @@ h4 {
     margin-top: 10px;
 }
 
-.skillsContainer {
-        max-width: 97%;
-        height: 400px;
-        margin-left: 1%;
-        margin-right: 1%;
-        padding: 1%;
-        margin-top: 250px; 
-}
+.work-content {
+    display: inline-block;
+    width: 500px;
+    margin-top: 200px;
+    margin-left: 25%;
+    text-align: center;
+    font-size: 30px;
+    color: #C399E3;
+} 
+
+
    
     .skills {
         display: inline-block;
-        width: 300px;
+        width: 350px;
         height: 250px;
         padding: 2px;
-        background-color: #98E1E1;
+        background-color: #C399E3;
         text-align: center;
         color: black;
         border: 2px solid black;
         font-family: 'Montserrat', sans-serif;
-        font-size: 24px;
+        font-size: 20px;
         margin-top: 20px;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     
@@ -165,20 +185,11 @@ h4 {
         display: inline-block;
         font-family: 'Montserrat', sans-serif;  
         font-size: 32px;
-        text-align: center;
+        text-align: left;
         margin-top: 10px;
     }
 
-    #workContainer {
-        max-width: 88%;
-        margin-left: 5%;
-        margin-right: 5%;
-        background-color: white;
-        height: 600px;
-        margin-top: 10px;
-        margin-right: 25px;
-        }
-
+    
         .work {
             display: inline-block;
             width: 450px;
@@ -191,8 +202,8 @@ h4 {
             font-family: 'Montserrat', sans-serif;
             font-size: 20px;
             margin-top: 20px;
-            margin-left: auto;
-            margin-right: auto;
+            margin-left: 50px;
+            margin-right: 50px;
             margin-bottom: 100px;
         }          
           
@@ -223,15 +234,31 @@ h4 {
             }
 
  
+            .button {
+                background-color: #C399E3; /* dark lavender */
+                border: none;
+                padding: 14px 40px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 44px;
+              }    
  
-  
+#footer {
+    text-align: center;
+    bottom: 0;
+}
 
 
 #footer {
-    background-color: #98E1E1;
-    position: relative;
+    background-color: #C399E3;
+    position: absolute;
     height: 100px;
+    width: 100%;
     margin-top: -100px;
+    left: 0;
+    right: 0;
+    bottom: 0;
     clear: both;
     }
  
